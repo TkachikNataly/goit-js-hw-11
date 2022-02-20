@@ -12,7 +12,7 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 button {
@@ -22,37 +22,33 @@ button {
   background-color: #f4faf6;
   cursor: pointer;
   color: #050505;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  font-size: 20px;
+  font-size: 18px;
 }
 
 button:hover {
-  background-color: #388d4b;
-  color: #a4cfb2;
+  background-color: #0af33c;
+  color: rgb(2, 1, 1);
 }
 
 .search-form {
-  background-color: rgb(238, 222, 4);
+  background-color: rgb(8, 233, 128);
+  width: 100vw;
   padding: 20px;
-  align-items: center;
+  /* align-items: center; */
   display: flex;
   justify-content: center;
-  box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 1px rgba(0, 0, 0, 0.12);
+  position: fixed;
 }
 
 .search-input {
   border-radius: 5px;
-  border: #034e13 1px solid;
+  border: #030704 1px solid;
   cursor: pointer;
   width: 250px;
   margin-right: 10px;
   padding: 7px;
-  color: #055316;
+  color: rgb(8, 6, 6);
 
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   font-size: 20px;
 }
 .search-input:focus {
@@ -60,7 +56,7 @@ button:hover {
 }
 
 input::placeholder {
-  color: #a4cfb2;
+  color: #fff;
 }
 
 .button-wrapper {
@@ -81,9 +77,6 @@ input::placeholder {
 
 .photo-card {
   margin-top: 15px;
-  /* border-radius: 10px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.3), 0px 1px 2px rgba(0, 0, 0, 0.1),
-    4px 2px 2px rgba(0, 0, 0, 0.3); */
 }
 
 .photo-card:not(:last-child) {
@@ -93,7 +86,6 @@ input::placeholder {
 div img {
   width: 300px;
   height: 250px;
-  /* border-radius: 10px 10px 0 0; */
   display: block;
   object-fit: cover;
   cursor: pointer;
@@ -105,7 +97,6 @@ div img {
   background-color: #fff;
   width: 100%;
   padding: 5px;
-  /* border-radius: 0 0 10px 10px; */
   font-size: 10px;
 }
 
@@ -123,7 +114,6 @@ div img {
 .info-item:not(:last-child) {
   padding-right: 10px;
   padding-left: 10px;
-  /* border-right: #2c332d 1px solid; */
 }
 
 p.info-item b {
