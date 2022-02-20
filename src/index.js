@@ -77,7 +77,7 @@ function onLoadMore() {
             getGallery(images);
             smothScroll();
         })
-        .catch(noResult);
+        .catch(responseMessage);
 }
 function smothScroll() {
     const { height: cardHeight } = galRef
